@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pets.TestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-27T14:18:04" hostname="DESKTOP-34EIONV" time="3.368">
+  <properties/>
+  <testcase name="[1:4] Contar mascotas" classname="pets.TestClass" time="3.368"/>
+  <system-out><![CDATA[16:18:06.948 [Test worker] INFO  com.intuit.karate - [print] 
+ Conteo de nombres: {
+  "arcii": 2,
+  "undefined": 5,
+  "Leon": 1,
+  "My best dog": 1,
+  "cat": 2,
+  "?????": 1,
+  "Special_char_owner_!@#$^&()`.testing": 1,
+  "??????!$%&()*+,-????????????": 1,
+  "Puma": 1,
+  "Yummi": 1,
+  "Chappy dog 11": 1,
+  "capitanrex": 1,
+  "doggie": 4,
+  "Baffi": 1,
+  "YourPetName": 1
+}
+ 
+---------------------------------------------------------
+feature: classpath:pets/count-and-same-name.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0,4395
+---------------------------------------------------------
+
+Karate version: 1.4.0.RC3
+======================================================
+elapsed:   3,48 | threads:    1 | thread time: 0,44 
+features:     1 | skipped:    0 | efficiency: 0,13
+scenarios:    1 | passed:     1 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.4.0.RC3
+file:///C:/Users/Susana/OneDrive/Escritorio/ProyectoPruebaKarate/build/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

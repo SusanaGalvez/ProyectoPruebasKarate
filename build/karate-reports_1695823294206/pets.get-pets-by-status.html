@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("d34521fd-3df6-4e57-8293-f313562b6d42",{name:"Susana"});
+    posthog.capture("report_feature",{karate_version:"1.4.0.RC3",karate_meta:null});
+  }
+});
+</script>
+
+    <title>pets.get-pets-by-status</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-09-27 02:19:48 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Obtener nombres e IDs de mascotas vendidas</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">pets/get-pets-by-status.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Obtener nombres e IDs de mascotas vendidas desde PetStore</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Obtener nombres e IDs de mascotas vendidas</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1346</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Cojo la url</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://petstore.swagger.io/v2/pet/findByStatus?status=sold&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">76</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1118</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">14:19:47.271 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/16.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:19:47.963 response time in milliseconds: 685
+1 &lt; 200
+1 &lt; Date: Wed, 27 Sep 2023 12:19:47 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:3456,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:899,&quot;name&quot;:&quot;pizza&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854773246,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854773252,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854773301,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854773329,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;test&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:718176719,&quot;name&quot;:&quot;mraVIl&quot;,&quot;photoUrls&quot;:[&quot;FVesrNRD&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:997997997,&quot;category&quot;:{&quot;id&quot;:640,&quot;name&quot;:&quot;TTPSC&quot;},&quot;name&quot;:&quot;TTPSC&quot;,&quot;photoUrls&quot;:[&quot;asdasda&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:136,&quot;name&quot;:&quot;goose&quot;,&quot;photoUrls&quot;:[&quot;https://th.bing.com/th/id/R.2ddcbdbe0c5c7c0519871709023b228f?rik=LJuLJ5LNaDOTMA&amp;riu=http%3a%2f%2flivt.net%2finfo%2fwp-content%2fuploads%2f2017%2f04%2f10%d0%93%d1%83%d1%81%d1%8c.jpg&amp;ehk=1DTwnEVPOhvP3DfneduKKRz6LMW7A0jb%2bUTv232Zfmw%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854773519,&quot;category&quot;:{&quot;id&quot;:5723475707,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;dbifdkfdbb&quot;,&quot;photoUrls&quot;:[&quot;photoSberCat&quot;],&quot;tags&quot;:[{&quot;id&quot;:4230667134,&quot;name&quot;:&quot;gaabkgejha&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:3213213211,&quot;category&quot;:{&quot;id&quot;:13,&quot;name&quot;:&quot;taxas&quot;},&quot;name&quot;:&quot;hot God&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:85996,&quot;category&quot;:{&quot;id&quot;:85995,&quot;name&quot;:&quot;POS&quot;},&quot;name&quot;:&quot;TOm&quot;,&quot;photoUrls&quot;:[&quot;152254&quot;,&quot;152254&quot;],&quot;tags&quot;:[{&quot;id&quot;:85996,&quot;name&quot;:&quot;TER&quot;},{&quot;id&quot;:85998,&quot;name&quot;:&quot;GUY&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:65149419,&quot;category&quot;:{&quot;id&quot;:90991639,&quot;name&quot;:&quot;quis aute&quot;},&quot;name&quot;:&quot;doggie a moi&quot;,&quot;photoUrls&quot;:[&quot;anim quis velit id&quot;,&quot;est dolor &quot;],&quot;tags&quot;:[{&quot;id&quot;:-84483971,&quot;name&quot;:&quot;labore fugiat proi&quot;},{&quot;id&quot;:-2960413,&quot;name&quot;:&quot;sunt veniam&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:74408294,&quot;category&quot;:{&quot;id&quot;:70278030,&quot;name&quot;:&quot;in adipisicing&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;nostrud sunt eu occaecat elit&quot;,&quot;esse aute non magna&quot;],&quot;tags&quot;:[{&quot;id&quot;:81618844,&quot;name&quot;:&quot;id aliquip&quot;},{&quot;id&quot;:-96817599,&quot;name&quot;:&quot;ut elit esse&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854774073,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;stringi&quot;},&quot;name&quot;:&quot;doggies&quot;,&quot;photoUrls&quot;:[&quot;strings&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;strings&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Meto en una variable la función de mapear el nombre y el id</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def mascotas = karate.map(response, function(x){ return { nombre: x.name, id: x.id } })</span>
+      </div>
+    </div>
+    <div class="time-cell passed">140</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Imprimo en pantalla el nombre y el id de las mascotas</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;\n Mascotas vendidas:&#39;, mascotas</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">14:19:48.154 [print] 
+ Mascotas vendidas: [
+  {
+    &quot;nombre&quot;: &quot;doggie&quot;,
+    &quot;id&quot;: 3456
+  },
+  {
+    &quot;nombre&quot;: &quot;pizza&quot;,
+    &quot;id&quot;: 899
+  },
+  {
+    &quot;nombre&quot;: null,
+    &quot;id&quot;: 9223372036854773246
+  },
+  {
+    &quot;nombre&quot;: null,
+    &quot;id&quot;: 9223372036854773252
+  },
+  {
+    &quot;nombre&quot;: null,
+    &quot;id&quot;: 9223372036854773301
+  },
+  {
+    &quot;nombre&quot;: &quot;test&quot;,
+    &quot;id&quot;: 9223372036854773329
+  },
+  {
+    &quot;nombre&quot;: &quot;mraVIl&quot;,
+    &quot;id&quot;: 718176719
+  },
+  {
+    &quot;nombre&quot;: &quot;TTPSC&quot;,
+    &quot;id&quot;: 997997997
+  },
+  {
+    &quot;nombre&quot;: &quot;goose&quot;,
+    &quot;id&quot;: 136
+  },
+  {
+    &quot;nombre&quot;: &quot;dbifdkfdbb&quot;,
+    &quot;id&quot;: 9223372036854773519
+  },
+  {
+    &quot;nombre&quot;: &quot;hot God&quot;,
+    &quot;id&quot;: 3213213211
+  },
+  {
+    &quot;nombre&quot;: &quot;TOm&quot;,
+    &quot;id&quot;: 85996
+  },
+  {
+    &quot;nombre&quot;: &quot;doggie a moi&quot;,
+    &quot;id&quot;: 65149419
+  },
+  {
+    &quot;nombre&quot;: &quot;doggie&quot;,
+    &quot;id&quot;: 74408294
+  },
+  {
+    &quot;nombre&quot;: &quot;doggies&quot;,
+    &quot;id&quot;: 9223372036854774073
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

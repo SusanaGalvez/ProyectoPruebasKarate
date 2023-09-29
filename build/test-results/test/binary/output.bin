@@ -1,0 +1,35 @@
+>16:18:06.948 [Test worker] INFO  com.intuit.karate - [print] 
+ Conteo de nombres: {
+  "arcii": 2,
+  "undefined": 5,
+  "Leon": 1,
+  "My best dog": 1,
+  "cat": 2,
+  "?????": 1,
+-  "Special_char_owner_!@#$^&()`.testing": 1,
+%  "??????!$%&()*+,-????????????": 1,
+  "Puma": 1,
+  "Yummi": 1,
+  "Chappy dog 11": 1,
+  "capitanrex": 1,
+  "doggie": 4,
+  "Baffi": 1,
+  "YourPetName": 1
+}
+ 
+:---------------------------------------------------------
+4feature: classpath:pets/count-and-same-name.feature
+7scenarios:  1 | passed:  1 | failed:  0 | time: 0,4395
+:---------------------------------------------------------
+
+Karate version: 1.4.0.RC3
+8======================================================
+6elapsed:   3,48 | threads:    1 | thread time: 0,44 
+4features:     1 | skipped:    0 | efficiency: 0,13
+-scenarios:    1 | passed:     1 | failed: 0
+8======================================================
+
+FHTML report: (paste into browser to view) | Karate version: 1.4.0.RC3
+jfile:///C:/Users/Susana/OneDrive/Escritorio/ProyectoPruebaKarate/build/karate-reports/karate-summary.html
+D===================================================================
+

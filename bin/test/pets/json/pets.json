@@ -1,0 +1,365 @@
+[
+  {
+    "id": 303,
+    "category": {
+      "id": 1,
+      "name": "arc"
+    },
+    "name": "arcii",
+    "photoUrls": [
+      "<string>",
+      "<string>"
+    ],
+    "tags": [
+      {
+        "id": 2,
+        "name": "arc"
+      },
+      {
+        "id": 3,
+        "name": "arc"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854770000,
+    "photoUrls": [],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854770000,
+    "photoUrls": [],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 305,
+    "category": {
+      "id": 1,
+      "name": "arc"
+    },
+    "name": "arcii",
+    "photoUrls": [
+      "<string>",
+      "<string>"
+    ],
+    "tags": [
+      {
+        "id": 2,
+        "name": "arc"
+      },
+      {
+        "id": 3,
+        "name": "arc"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 80085,
+    "category": {
+      "id": 10,
+      "name": "string"
+    },
+    "name": "Leon",
+    "photoUrls": [
+      "https://s6.stc.all.kpcdn.net/family/wp-content/uploads/2022/02/staff-sobaka-960x540-1-960x540.jpg"
+    ],
+    "tags": [
+      {
+        "id": 15,
+        "name": "Good boy"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854018000,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "My best dog",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 123456789,
+    "category": {
+      "id": 131,
+      "name": "Barsik"
+    },
+    "name": "cat",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 7413,
+    "category": {
+      "id": 7411,
+      "name": "кошка"
+    },
+    "name": "Мурка",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 7411,
+        "name": "Шотландская"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 17,
+    "name": "Special_char_owner_!@#$^&()`.testing",
+    "photoUrls": [
+      "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+    ],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 19467,
+    "name": "見響见响仮仏!$%&()*+,-ƄƅƆḞḟṀʶʷʸăĄą",
+    "photoUrls": [
+      "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+    ],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854770000,
+    "photoUrls": [],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 131131,
+    "category": {
+      "id": 131,
+      "name": "Barsik"
+    },
+    "name": "cat",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 1025,
+    "category": {
+      "id": 1,
+      "name": "dog"
+    },
+    "name": "Puma",
+    "photoUrls": [
+      "https://publish.purewow.net/wp-content/uploads/sites/2/2021/03/fluffy-dog-breeds-pomeranian.jpg?resize=720%2C524"
+    ],
+    "tags": [
+      {
+        "id": 20,
+        "name": "fluffy"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 50000,
+    "category": {
+      "id": 10,
+      "name": "Fish"
+    },
+    "name": "Yummi",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Golden"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 3337333,
+    "category": {
+      "id": 1,
+      "name": "Funtay"
+    },
+    "name": "Chappy dog 11",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 100500,
+    "category": {
+      "id": 0,
+      "name": "dog"
+    },
+    "name": "capitanrex",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "fsdfsdf"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 24,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 1109,
+    "category": {
+      "id": 101,
+      "name": "dog"
+    },
+    "name": "Baffi",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854771000,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 1231312312,
+    "photoUrls": [],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854771000,
+    "category": {
+      "id": -29225102,
+      "name": "Excepteur fugiat ut in"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "officia quis co",
+      "sit Lore"
+    ],
+    "tags": [
+      {
+        "id": -9027978,
+        "name": "enim"
+      },
+      {
+        "id": -12646892,
+        "name": "dolor exercitation eu elit"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854771000,
+    "category": {
+      "id": -38125463,
+      "name": "irure officia Excepteur a"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "mollit sint anim Excepteur",
+      "fugiat non nostrud amet"
+    ],
+    "tags": [
+      {
+        "id": 91190600,
+        "name": "velit aute"
+      },
+      {
+        "id": 83461469,
+        "name": "eiusmod sed deserunt proident"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854771000,
+    "photoUrls": [],
+    "tags": [],
+    "status": "sold"
+  },
+  {
+    "id": 69420,
+    "name": "YourPetName",
+    "photoUrls": [],
+    "tags": [],
+    "status": "sold"
+  }
+]
